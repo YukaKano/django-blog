@@ -1,0 +1,8 @@
+myvenv
+memo_github_blog.txt
+memo_mysite3.txt
+db.sqlite3
+.vscode
+__pycache__
+*.pyc
+.DS_Store
