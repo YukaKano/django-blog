@@ -6,13 +6,13 @@
     <form method="post" class="form-auth">
       {% csrf_token %}
       <div class="form-label-group">
-        {% render_field form.login class="form-control" placeholder="ユーザー名" %}
+        {% render_field form.login class="form-control" placeholder="ユーザー名 (スペースなし)" %}
       </div>
       <div class="form-label-group">
         {% render_field form.password class="form-control" placeholder="パスワード" %}
       </div>
       <div class="text-center">
-        <button class="btn btn-primary" type="submit">ログイン</button>
+        <button class="btn btn-primary" type="submit">LOGIN</button>
       </div>
     </form>
   </div>

@@ -2,10 +2,10 @@
 
 <h2 class="my-4">{{ post_data.title }}</h2>
 <hr />
-<h5 class="my-4">削除してもよろしいですか？</h5>
+<h5 class="my-4">DELETEしてもよろしいですか？</h5>
 <form method="post">
   {% csrf_token %}
-  <button class="btn btn-danger" type="submit">削除する</button>
+  <button class="btn btn-danger" type="submit">DELETE</button>
 </form>
 
 {% endblock %}
